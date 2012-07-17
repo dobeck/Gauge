@@ -1,0 +1,80 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+*:focus {
+	outline: none;
+}
+
+.disabled {
+	opacity: 0.5;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+body {
+	font-family: Arial;
+	font-size: 12px;
+	color: #fff;
+	background: #0b0b0b;
+}
+
+div.container {
+	width: 600px;
+	height: 550px;
+	margin: 50px auto 0;
+}
+
+div.container div.gauge {
+	width: 430px;
+	height: 430px;
+	background: url("../img/gauge.png") no-repeat;
+	position: relative;
+	margin: auto;
+}
+
+div.container div.gauge div.tip {
+	top: 40px;
+	left: 206px;
+	position: absolute;
+	width: 20px;
+	height: 354px;
+	background: url("../img/tip.png") no-repeat;
+	transform: rotate(-125deg);
+	-webkit-transform: rotate(-125deg);
+	-moz-transform: rotate(-125deg);
+	-o-transform: rotate(-125deg);
+	position: absolute;
+}
+
+div.container div.action {
+	text-align: center;
+	margin: 15px 0 0;
+}
+
+a.button {
+	width: 168px;
+	height: 63px;
+	display: inline-block;
+	line-height: 62px;
+	font-size: 23px;
+	text-align: center;
+	margin: 0 10px;
+	text-transform: uppercase;
+}
+
+a.button:hover {
+	text-shadow: 2px 1px 1px #0b0b0b;
+}
+
+a.redButton {
+	background: url("../img/redButton.png") no-repeat;
+}
+
+a.greenButton {
+	background: url("../img/greenButton.png") no-repeat;
+}
